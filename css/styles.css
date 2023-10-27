@@ -30,8 +30,14 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.bottom16 {
+.block {
+  display: block;
+}
+.bottom-onesix {
   margin-bottom: 16px;
+}
+.bottom-twofour {
+  margin-bottom: 24px;
 }
 .container {
   width: 1158px;
@@ -636,6 +642,14 @@ img {
 }
 .modal-sub-email-input::placeholder {
   color: var(--WHITE, #ffffff);
+}
+.user-privacy-input:checked {
+  background-color: var(--OCEAN, #404bbf);
+  border: none;
+  fill: var(--CLOUD, #f4f4fd);
+}
+.user-privacy-link {
+  color: var(--IRIS, #4d5ae5);
 }
 .button-sub {
   min-width: 165px;

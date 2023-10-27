@@ -462,7 +462,9 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-box-caption"></p>
+        <p class="modal-box-caption">
+          Leave your contacts and we will call you back
+        </p>
         <form action="submit">
           <div class="modal-form-name">
             <label for="user-name" class="modal-form-name-label"> Name </label>
@@ -510,25 +512,34 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-name bottom16">
+          <div class="modal-form-name bottom-onesix">
             <label for="user-comment" class="modal-form-name-label">
               Comment
             </label>
-          </div>
-          <div class="modal-form-name">
             <textarea
               class="modal-form-name-textarea"
               id="user-comment"
               name="user-comment"
               placeholder="Text input"
             ></textarea>
-            <label for="user-privacy" class="modal-form-privacy-label"
-              ><span id="user-privacy" class="modal-form-privacy-span">
-                <svg class="modal-form-svg" width="16" height="16">
+          </div>
+
+          <div class="modal-form-name bottom-twofour">
+            <input
+              class="user-privacy-input visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy" class="modal-form-privacy-label block"
+              ><span class="modal-form-privacy-span">
+                <svg class="modal-form-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-priv"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
+              <a class="user-privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="button-form-submit" type="submit">Send</button>

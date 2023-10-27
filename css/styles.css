@@ -30,6 +30,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.bottom16 {
+  margin-bottom: 16px;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -613,9 +616,12 @@ img {
 }
 .modal-sub-form {
   display: flex;
+  gap: 24px;
+}
+.modal-sub-text {
+  display: block;
 }
 .modal-sub-email-input {
-  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid var(--WHITE, #ffffff);

@@ -643,7 +643,7 @@ img {
 .modal-sub-email-input::placeholder {
   color: var(--WHITE, #ffffff);
 }
-.user-privacy-input:checked + .modal-form-privacy-span {
+:checked + .modal-form-privacy-span {
   background-color: var(--OCEAN, #404bbf);
   border: none;
   fill: var(--CLOUD, #f4f4fd);

@@ -33,12 +33,6 @@ img {
 .block {
   display: block;
 }
-.bottom-onesix {
-  margin-bottom: 16px;
-}
-.bottom-twofour {
-  margin-bottom: 24px;
-}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -517,6 +511,12 @@ img {
 .modal-form-name {
   margin-bottom: 8px;
 }
+.modal-form-name-onesix {
+  margin-bottom: 16px;
+}
+.modal-form-name-twofour {
+  margin-bottom: 24px;
+}
 .modal-form-name-label {
   font-size: 12px;
   line-height: 1.17;
@@ -643,7 +643,7 @@ img {
 .modal-sub-email-input::placeholder {
   color: var(--WHITE, #ffffff);
 }
-.user-privacy-input:checked {
+.user-privacy-input:checked .modal-form-privacy-span {
   background-color: var(--OCEAN, #404bbf);
   border: none;
   fill: var(--CLOUD, #f4f4fd);

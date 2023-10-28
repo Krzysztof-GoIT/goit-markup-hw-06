@@ -435,16 +435,17 @@
         </div>
         <div class="modal-sub-form">
           <p class="modal-sub-text">Subscribe</p>
-          <form action="submit" class="modal-sub-form">
+          <form class="modal-sub-form">
             <label class="modal-sub-email">
               <input
                 class="modal-sub-email-input"
                 name="email"
                 type="email"
                 placeholder="E-mail"
+                required
               />
             </label>
-            <button type="submit" class="button-sub">
+            <button type="button" class="button-sub">
               Subscribe
               <svg class="button-sub-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -464,7 +465,7 @@
         <p class="modal-box-caption">
           Leave your contacts and we will call you back
         </p>
-        <form action="submit">
+        <form>
           <div class="modal-form-name">
             <label for="user-name" class="modal-form-name-label"> Name </label>
             <div class="modal-form-name-container">
@@ -473,6 +474,7 @@
                 id="user-name"
                 name="user-name"
                 type="text"
+                required
               />
               <svg class="modal-form-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-pepol"></use>
@@ -489,6 +491,7 @@
                 id="user-phone"
                 name="user-phone"
                 type="tel"
+                required
               />
               <svg class="modal-form-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
@@ -505,6 +508,7 @@
                 id="user-email"
                 name="user-email"
                 type="email"
+                required
               />
               <svg class="modal-form-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
@@ -522,7 +526,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-
           <div class="modal-form-name-twofour">
             <input
               class="user-privacy-input visually-hidden"
@@ -530,10 +533,11 @@
               type="checkbox"
               value="true"
               name="user-privacy"
+              required
             />
             <label for="user-privacy" class="modal-form-privacy-label block"
               ><span class="modal-form-privacy-span">
-                <svg class="form-privacy-svg" width="10" height="8">
+                <svg class="form-privacy-svg" width="16" height="16">
                   <use href="./images/icons.svg#icon-priv"></use>
                 </svg>
               </span>
@@ -541,7 +545,7 @@
               <a class="user-privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
-          <button class="button-form-submit" type="submit">Send</button>
+          <button class="button-form-submit" type="button">Send</button>
         </form>
       </div>
     </div>

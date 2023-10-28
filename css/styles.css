@@ -630,6 +630,7 @@ img {
 .modal-sub-email-input {
   width: 264px;
   height: 40px;
+  gap: 24px;
   border: 1px solid var(--WHITE, #ffffff);
   background-color: transparent;
   font-size: 12px;
